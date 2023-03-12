@@ -35,3 +35,18 @@ gcc server.c -o server
 cd udp
 gcc client.c -o client
 ```
+
+### HTTP
+
+サーバ実行
+
+```
+cd http
+gcc http.c -o httpd
+```
+
+ブラウザから以下を実行
+
+```
+http://localhost:9999(プログラムで設定したポート番号)
+```
