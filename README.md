@@ -19,3 +19,19 @@ gcc server.c -o server
 cd tcp
 gcc client.c -o client
 ```
+
+### UDP
+
+サーバ実行
+
+```
+cd udp
+gcc server.c -o server
+```
+
+クライアント実行
+
+```
+cd udp
+gcc client.c -o client
+```
